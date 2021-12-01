@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 4000px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.navbar{
+    position: relative;
+    top: 0;
+}
+.search{
+    align-self: center;
+
+}
+.search-box{
+    font-family: "Poppins";
+    overflow: hidden;
+    width: 300px;
+    height: 35px;
+    padding: 20px;
+    padding-right: 50px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.192);
+    border-style: none;
+    border-radius: 20px;
+}
+.search a{
+    transition: .5s;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    right: 39px;
+    color: white;
+}
+.search a:hover{
+    /* transition: .5s; */
+    text-shadow: 2px 2px 5px #00fa60;
+    color: white;
+}
+.search a:active{
+    text-shadow: 2px 2px 5px #ffffff;
+    color: #00fa60;
+}
+.logo{
+    align-self: center;
+    color: white;
+    padding: 10px;
+    margin-right: auto;
+}
+.logo:hover{
+    /* transition: 1s; */
+    transition: 700ms;
+    cursor: pointer;
+    text-shadow: 2px 2px 10px #00fa60;
+}
+
+.navbar ul{
+    position: relative;
+    display: flex;
+    background-color: black;
+}
+.navbar ul li{
+    /* float: right; */
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navbar ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover{
+    transition: 700ms;
+    color: black;
+    background-color: #1fff75;
+    /* background-color: #0091ff; */
+}
+
+.ribbon{
+    color: white;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.582);
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(10px);
+    margin-top: 0px;
+    text-align: center;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.582);
+}
+.logo-container{
+    display: flex;
+}
+.profimg{
+    margin: 50px;
+    height: 300px;
+    border-radius: 100px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+    transition: 700ms;
+}
+.ar-profimg{
+    position: absolute;
+    margin: 50px;
+    height: 300px;
+    border-radius: 100px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+    transition: 700ms;
+}
+.ar-profimg:hover{
+    opacity: 0%;
+}
+/* .profimg:hover{
+    transform: translate(-3px,-3px);
+    transition: 700ms;
+    box-shadow: 5px 5px 10px  #1fff75;
+} */
+.banner{
+    /* width: 65%; */
+    display: flex;
+    background: #485563;
+    background: -webkit-linear-gradient(to left, #29323c, #485563); 
+    background: linear-gradient(to left, #29323c, #485563); 
+}
+.contall{
+    width: 65%;
+}
+.about-me{
+    align-self: center;
+    margin-right: 30px;
+    padding: 10px;
+    /* background-color: yellow; */
+}
+.about-me {
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+#contact{
+    color: white;
+    margin: auto;
+    text-align: center;
+    text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.582);
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(10px);
+    margin-top: 0px;
+    text-align: center;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.582);
+}
+/* .content{
+    height: 4000px;
+} */
+.contact-box{
+    padding: 50px;
+    background-color: #485563;
+}
+.contact-box ul input{
+    border-style: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Poppins;
+    height: 50px;
+    width: 530px;
+    margin: 5px;
+    padding: 5px;
+}
+.contact-box ul textarea{
+    border-style: none;
+    border-radius: 10px;
+    width: 530px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Poppins;
+}
+
+.contact-box ul li{
+    letter-spacing: 2px;
+    color: white;
+    list-style: none;
+    text-align: right;
+    
+}
+.contact-box .btn{
+    font-family: Poppins;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.158);
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 2px 5px black;
+}
+.contact-box .btn:hover{
+    transition: 0.4s;
+    cursor: pointer;
+    background-color: #00fa60;
+    box-shadow: 2px 2px 5px black;
+}
+.contact-box .btn:active{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+}
